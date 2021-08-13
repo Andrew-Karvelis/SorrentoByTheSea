@@ -1,0 +1,189 @@
+body {
+  font-family: Helvetica, Calibri, Arial;
+  background-color: #B6CCD7;
+}
+
+/*Links*/
+a:link {color: #87423c; text-decoration: none;}
+a:visited {color: #87423c; text-decoration: none;}
+a:hover {color: #555; text-decoration: none;}
+a:active {color: white; text-decoration: none;}
+
+/*Headings and Paragraphs*/
+h1 {color: #87423c; font-size: 36px;}
+h2 {color: #4d1d18; font-size: 24px;}
+p {line-height: 150%;}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#columnLeft{
+  width: 45%;
+  padding: 15px;
+  margin: 20px;
+}
+
+#columnRight {
+  width: 45%;
+  padding: 15px;
+  margin: 20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}
+
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+li{
+  float: left;
+}
+
+li a{
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover {
+border: double;
+}
+
+.container{
+  position: relative;
+}
+
+.imgSlides{
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+.navBack,
+.navNext{
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next{
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: black;
+}
+
+.slidePos{
+  background-color: #222;
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container{
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+footer{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.thumbnail{
+  width: 50%;
+  opacity: 0.6;
+}
+
+.active,
+.thumbnail:hover{
+  opacity: 1;
+}
+
+#calendar{
+  float: left;
+  width: 30%;
+  padding: 15px;
+  line-height: 150%;
+}
+
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.contactForm{
+  float: left;
+  width: 30%;
+  padding: 15px;
+  line-height: 150%;
+}
+
+#nameInput, #phoneInput, #emailInput, #messageInput{
+  width: 100%;
+}
+
+input[type=text], select, textarea{
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+input[type=submit]:hover{
+  background-color: #45a049;
+}
+
+#review{
+  text-align: center;
+}
+
+.contactForm{
+  text-align: center;
+  padding: 15px;
+}
+
+input.invalild{
+  background: #faa;
+}
+
